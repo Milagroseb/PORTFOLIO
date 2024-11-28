@@ -1,0 +1,45 @@
+/* Tipografía global */
+body {
+    font-family: 'Poppins', sans-serif;
+    padding-top: 56px; /* Para evitar que la barra fija cubra contenido */
+    background-color: #fff5f7; /* Fondo suave */
+}
+
+h2 {
+    color: #d81b60; /* Tono femenino */
+}
+
+.navbar-brand {
+    font-weight: 600;
+}
+
+.btn-success {
+    background-color: #ec407a; /* Color personalizado */
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: #d81b60;
+}
+
+.slider-img {
+    width: 100%; /* Tamaño ajustado */
+    height: auto;
+}
+
+/* Espaciado entre secciones */
+#sobre-mi {
+    margin-bottom: 0;
+    padding-bottom: 2rem;
+}
+
+#slider {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+/* Tarjetas de trabajos */
+.card-title {
+    color: #d81b60;
+    font-weight: 600;
+}
